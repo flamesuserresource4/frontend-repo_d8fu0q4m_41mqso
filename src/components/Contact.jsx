@@ -18,7 +18,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="relative w-full bg-[#0b1220] py-20 text-white">
+    <section id="contact" className="relative w-full scroll-mt-24 bg-[#0b1220] py-20 text-white">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(14,165,233,0.12),transparent_60%)]" />
       <div className="relative mx-auto max-w-5xl px-6">
         <div className="mb-8 text-center">

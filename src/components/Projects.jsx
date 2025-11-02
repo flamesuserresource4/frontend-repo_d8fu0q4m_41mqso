@@ -37,7 +37,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="relative w-full bg-[#0a0f1a] py-20 text-white">
+    <section id="projects" className="relative w-full scroll-mt-24 bg-[#0a0f1a] py-20 text-white">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(56,189,248,0.1),transparent_60%)]" />
       <div className="relative mx-auto max-w-6xl px-6">
         <div className="mb-8 flex items-end justify-between">

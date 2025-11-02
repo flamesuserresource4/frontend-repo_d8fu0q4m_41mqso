@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-[90vh] w-full overflow-hidden bg-[#0a0f1a] text-white">
+    <section id="hero" className="relative min-h-[90vh] w-full overflow-hidden bg-[#0a0f1a] text-white">
       <div className="absolute inset-0">
         <Spline
           scene="https://prod.spline.design/7m4PRZ7kg6K1jPfF/scene.splinecode"
@@ -17,10 +17,9 @@ const Hero = () => {
         />
       </div>
 
-      {/* Subtle gradient overlay for readability */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[#0a0f1a]/40 via-[#0a0f1a]/60 to-[#0a0f1a]/90" />
 
-      <div className="relative mx-auto flex max-w-6xl flex-col items-center px-6 pt-24 text-center sm:pt-28 md:pt-36">
+      <div className="relative mx-auto flex max-w-6xl flex-col items-center px-6 pt-28 text-center sm:pt-32 md:pt-40">
         <motion.h1
           className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl"
           initial={{ opacity: 0, y: 20 }}

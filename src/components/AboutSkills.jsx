@@ -12,7 +12,7 @@ const skills = [
 
 const AboutSkills = () => {
   return (
-    <section id="about" className="relative w-full bg-[#0b1220] py-20 text-white">
+    <section id="about" className="relative w-full scroll-mt-24 bg-[#0b1220] py-20 text-white">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(34,211,238,0.12),transparent_55%)]" />
       <div className="relative mx-auto max-w-6xl px-6">
         <div className="grid items-center gap-10 md:grid-cols-2">
